@@ -1,0 +1,32 @@
+# !/bin/bash
+
+yay -S polybar bspwm sxhkd picom rofi pcmanfm-gtk3 lxappearance  git  nitrogen nerd-fonts-jetbrains-mono 
+
+git clone https://github.com/zarc1411/dotfiles && cd dotfiles 
+
+cd st 
+
+sudo make install 
+ 
+cd ..
+
+cd tabbed 
+
+sudo make install 
+
+cd ..
+
+cd ~/dotfiles 
+
+mv polybar bspwm sxhkd picom ~/.config
+
+cd ~/.config/bspwm  && chmod +x bspwmrc 
+
+cd ~/.config/polybar && chmod +x launch.sh
+
+cd ~/dotfiles && mv Xresources ~/ 
+
+cd ~/dotfiles && mv wall ~/Pictures 
+
+xrdb merge ~/Xresources
+
