@@ -1,0 +1,77 @@
+!-- Xft settings -- !
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+Xft.dpi:   99
+
+
+st.font: Iosevka Nerd Font:style=Medium:pixelsize=18
+
+! window padding
+st.opacity: 255
+st.borderpx: 15 
+
+
+#define black0                    #373E4D
+#define black1                    #3B4252
+#define black2                    #434C5E
+#define black3                    #4C566A
+
+#define white0                    #F9F9F9
+#define white1                    #F7F7F7
+#define white2                    #F4F4F4
+
+#define pink0                     #ffa6c1
+#define pink1                     #ff87ab
+
+#define purple0                   #c77dff
+#define purple1                   #db91ff
+
+#define turquoise0                #90e0ef
+#define turquoise1                #ade8f4
+
+#define green0                    #2BE491
+#define green1                    #44EB9F
+
+#define red0                      #e35053
+#define red1                      #e66063
+
+#define purple2                   #c18cf9
+#define purple3                   #c37df8
+
+#define orange0                   #f79d65
+#define orange1                   #ffb179
+*.color1:                         pink0
+*.color2:                         green0 
+*.color3:                         orange0 
+*.color4:                         purple0 
+*.color5:                         turquoise0
+*.color6:                         purple2
+
+*.color9:                         pink1
+*.color10:                        green1
+*.color11:                        orange1
+*.color12:                        purple1
+*.color13:                        turquoise1
+*.color14:                        purple3
+
+! FOR REVERSING ONLY (INVERT BG/FG)
+*.foreground:                     white0 
+*.background:                     black0
+*.cursorColor:                    white0
+
+*.color0:                         black2
+*.color7:                         white1
+
+*.color8:                         black3
+*.color15:                        white2
+
+
+tabbed.selbgcolor:   #282c34
+tabbed.selfgcolor:   #d6d8eb
+
+tabbed.normfgcolor:  #9294a8
+tabbed.normbgcolor:  #353b45

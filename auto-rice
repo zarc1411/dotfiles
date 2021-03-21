@@ -1,6 +1,6 @@
 # !/bin/bash
 
-yay -S polybar bspwm sxhkd picom rofi pcmanfm-gtk3 lxappearance  git  nitrogen nerd-fonts-jetbrains-mono 
+paru -S polybar bspwm sxhkd picom rofi pcmanfm-gtk3 lxappearance ranger neofetch git  nitrogen nerd-fonts-iosevka 
 
 git clone https://github.com/zarc1411/dotfiles && cd dotfiles 
 
@@ -18,15 +18,15 @@ cd ..
 
 cd ~/dotfiles 
 
-mv polybar bspwm sxhkd picom ~/.config
+mv polybar bspwm sxhkd picom ranger neofetch ~/.config
 
 cd ~/.config/bspwm  && chmod +x bspwmrc 
 
 cd ~/.config/polybar && chmod +x launch.sh
 
-cd ~/dotfiles && mv Xresources ~/ 
+cd ~/dotfiles && mv .Xresources ~/ 
 
 cd ~/dotfiles && mv wall ~/Pictures 
 
-xrdb merge ~/Xresources
+xrdb merge ~/.Xresources
 
