@@ -1,4 +1,4 @@
 # dotfiles
 
 Screenshot
-![](https://cdn.discordapp.com/attachments/750250354771361805/823037112608882703/unknown.png)
+![](https://cdn.discordapp.com/attachments/750250354771361805/823037620064878602/unknown.png)
