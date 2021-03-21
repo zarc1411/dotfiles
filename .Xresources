@@ -14,7 +14,7 @@ st.font: Iosevka Nerd Font:style=Medium:pixelsize=18
 st.opacity: 255
 st.borderpx: 15 
 
-
+! Colorscheme inspired from Owl4ce (with some changes)
 #define black0                    #373E4D
 #define black1                    #3B4252
 #define black2                    #434C5E
@@ -44,6 +44,7 @@ st.borderpx: 15
 
 #define orange0                   #f79d65
 #define orange1                   #ffb179
+
 *.color1:                         pink0
 *.color2:                         green0 
 *.color3:                         orange0 
