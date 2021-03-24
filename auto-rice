@@ -20,7 +20,7 @@ cd ..
 
 cd ~/dotfiles 
 
-mv polybar bspwm sxhkd picom neofetch ~/.config
+mv polybar bspwm sxhkd picom nvim neofetch ~/.config
 
 cd ~/.config/bspwm  && chmod +x bspwmrc 
 
