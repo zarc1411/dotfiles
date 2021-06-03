@@ -69,10 +69,3 @@ st.borderpx: 15
 
 *.color8:                         black3
 *.color15:                        white2
-
-
-tabbed.selbgcolor:   #282c34
-tabbed.selfgcolor:   #d6d8eb
-
-tabbed.normfgcolor:  #9294a8
-tabbed.normbgcolor:  #353b45
