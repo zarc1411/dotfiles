@@ -33,12 +33,12 @@ INSTALLATION
  
  4) Create a directory ``.config`` in ``~/`` (home) directory if not created already.
  5) Then go to dotfiles directory and move these folders to ``.config`` directory
-      polybar 
-      bspwm 
-      sxhkd 
-      picom 
-      neofetch
-    If you already have some/all of these folders in ``.config`` then just replace their contents by the contents of my folders from my repo
+      ``polybar`` 
+      ``bspwm`` 
+      ``sxhkd`` 
+      ``picom``
+ 
+  If you already have some/all of these folders in ``.config`` then just replace their contents by the contents of my folders from my repo
     
  6) Make the files of bspwm and polybar executable
    ```bash
