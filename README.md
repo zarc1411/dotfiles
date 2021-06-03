@@ -6,6 +6,8 @@ Screenshot
 INSTALLATION
 
 1) First download these packages if you haven't already
+
+
    ``polybar`` 
    ``bspwm`` 
    ``sxhkd`` 
@@ -33,6 +35,8 @@ INSTALLATION
  
  4) Create a directory ``.config`` in ``~/`` (home) directory if not created already.
  5) Then go to dotfiles directory and move these folders to ``.config`` directory
+
+
       ``polybar`` 
       ``bspwm`` 
       ``sxhkd`` 
