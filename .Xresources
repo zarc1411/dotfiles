@@ -8,64 +8,37 @@ Xft.lcdfilter:	lcddefault
 Xft.dpi:   99
 
 
-st.font: Iosevka Nerd Font:style=Medium:pixelsize=18
+st.font: Victor Mono:style=Medium:pixelsize=16
 
 ! window padding
 st.opacity: 255
-st.borderpx: 15 
+st.borderpx: 30 
 
-! Colorscheme inspired from Owl4ce (with some changes)
-#define black0                    #373E4D
-#define black1                    #3B4252
-#define black2                    #434C5E
-#define black3                    #4C566A
+! special
+*.foreground:   #ffffff
+*.background: #302A53
+*.cursorColor:  #ffffff
 
-#define white0                    #F9F9F9
-#define white1                    #F7F7F7
-#define white2                    #F4F4F4
+*.color0:       #29343d
+*.color8:       #3b4b58
 
-#define pink0                     #ffa6c1
-#define pink1                     #ff87ab
+*.color1:       #a3b8ef
+*.color9:       #bac8ef
 
-#define purple0                   #c77dff
-#define purple1                   #db91ff
+*.color2:      #adff2f
+*.color10:       #7cfc00
 
-#define turquoise0                #90e0ef
-#define turquoise1                #ade8f4
+*.color3:       #fbdf90
+*.color11:      #fbeab9
 
-#define green0                    #2BE491
-#define green1                    #44EB9F
+*.color4:       #9f91e2
+*.color12:      #9587d8   
 
-#define red0                      #e35053
-#define red1                      #e66063
+*.color5:       #ccaced
+*.color13:      #d7c1ed
 
-#define purple2                   #c18cf9
-#define purple3                   #c37df8
+*.color6:        #ff1493
+*.color14:      #ff1e9d
 
-#define orange0                   #f79d65
-#define orange1                   #ffb179
-
-*.color1:                         pink0
-*.color2:                         green0 
-*.color3:                         orange0 
-*.color4:                         purple0 
-*.color5:                         turquoise0
-*.color6:                         purple2
-
-*.color9:                         pink1
-*.color10:                        green1
-*.color11:                        orange1
-*.color12:                        purple1
-*.color13:                        turquoise1
-*.color14:                        purple3
-
-! FOR REVERSING ONLY (INVERT BG/FG)
-*.foreground:                     white0 
-*.background:                     black0
-*.cursorColor:                    white0
-
-*.color0:                         black2
-*.color7:                         white1
-
-*.color8:                         black3
-*.color15:                        white2
+*.color7:       #ffffff
+*.color15:      #eaeaea
