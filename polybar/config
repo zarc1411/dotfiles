@@ -57,14 +57,13 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Iosevka Nerd Font:style=Medium:pixelsize=12;2
+font-0 = VictorMono Nerd Font:style=Medium:pixelsize=12;2
 font-1 = Material Icons:style=Regular:pixelsize=12;2
 
 ;this thing will allow me to use those play pause modules for music
 enable-ipc = true
 
 modules-left = bspwm 
-modules-center = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = wlan eth battery date 
 
 tray-position = right

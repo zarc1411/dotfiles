@@ -1,71 +1,57 @@
 !-- Xft settings -- !
+
 Xft.antialias:	1
 Xft.hinting:	1
 Xft.autohint:	0
 Xft.hintstyle:	hintslight
 Xft.rgba:	rgb
 Xft.lcdfilter:	lcddefault
-Xft.dpi:   99
 
+!-- transparen5y ( any value under 255 ) --!
+st.opacity:        255
 
-st.font: Iosevka Nerd Font:style=Medium:pixelsize=18
+st.borderpx: 30  
+!-- inner border -- ! 
 
-! window padding
-st.opacity: 255
-st.borderpx: 15 
+st.font:         JetbrainsMono Nerd Font:style:medium:pixelsize=15
+!st.font:         Sarasa Mono SC Nerd:style:regular:pixelsize=16
 
-! Colorscheme inspired from Owl4ce (with some changes)
-#define black0                    #373E4D
-#define black1                    #3B4252
-#define black2                    #434C5E
-#define black3                    #4C566A
+#define nord0 #2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
 
-#define white0                    #F9F9F9
-#define white1                    #F7F7F7
-#define white2                    #F4F4F4
+*.foreground:   nord4
+*.background:   nord0
+*.cursorColor:  nord4
+*fading: 35
+*fadeColor: nord3
 
-#define pink0                     #ffa6c1
-#define pink1                     #ff87ab
-
-#define purple0                   #c77dff
-#define purple1                   #db91ff
-
-#define turquoise0                #90e0ef
-#define turquoise1                #ade8f4
-
-#define green0                    #2BE491
-#define green1                    #44EB9F
-
-#define red0                      #e35053
-#define red1                      #e66063
-
-#define purple2                   #c18cf9
-#define purple3                   #c37df8
-
-#define orange0                   #f79d65
-#define orange1                   #ffb179
-
-*.color1:                         pink0
-*.color2:                         green0 
-*.color3:                         orange0 
-*.color4:                         purple0 
-*.color5:                         turquoise0
-*.color6:                         purple2
-
-*.color9:                         pink1
-*.color10:                        green1
-*.color11:                        orange1
-*.color12:                        purple1
-*.color13:                        turquoise1
-*.color14:                        purple3
-
-! FOR REVERSING ONLY (INVERT BG/FG)
-*.foreground:                     white0 
-*.background:                     black0
-*.cursorColor:                    white0
-
-*.color0:                         black2
-*.color7:                         white1
-
-*.color8:                         black3
-*.color15:                        white2
+*.color0: nord1
+*.color1: nord11
+*.color2: nord14
+*.color3: nord13
+*.color4: nord9
+*.color5: nord15
+*.color6: nord8
+*.color7: nord5
+*.color8: nord3
+*.color9: nord11
+*.color10: nord14
+*.color11: nord13
+*.color12: nord9
+*.color13: nord15
+*.color14: nord7
+*.color15: nord6
